@@ -17,6 +17,11 @@ Full documentation is located [here](https://github.com/k3ng/k3ng_rotator_contro
  * Easycom
 * Support for position sensors:
  * Potentiometers / Analog Voltage
+ * Azimuth potentiometers with grounded wiper and both ends wired
+   * DC offset compensates for ground return voltage drop
+   * Filter 60 Hz voltages caused by sharing return wire with motor and brake
+   * Measure voltage on both ends of pot and cancel wiper noise
+   * Interrupt driven ADC and FIR filter on pot voltages
  * Rotary Encoders
  * Incremental Encoders
  * Pulse Output
