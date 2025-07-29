@@ -1,4 +1,6 @@
-# K3NG Rotator Controller
+# K3NG Rotator Controller, wa1hco branch
+
+This version of the code is refactored by a hardware engineer to configure the options with fewer configurable macros and more subroutines, headers, etc.  It probably takes more code space but MCU memory size is not really constrained any more.
 
 ## Introduction
 
@@ -6,7 +8,7 @@ This is an Arduino-based rotator interface that interfaces a computer to a rotat
 
 ## Documentation
 
-Full documentation is located [here](https://github.com/k3ng/k3ng_rotator_controller/wiki).  Please read it!  Volunteers for maintaining documentation are needed.
+Original documentation is located [here](https://github.com/k3ng/k3ng_rotator_controller/wiki).  Please read it!  Volunteers for maintaining documentation are needed.
 
 ## Features
 
@@ -55,7 +57,7 @@ Full documentation is located [here](https://github.com/k3ng/k3ng_rotator_contro
 * GPS Interfacing
 * Realtime Clock Interfacing
 
-## Acknowledgements
+## K3NG Acknowledgements
 
 John, W3SA, has tested on a Yaesu Az/El unit, contributed several updates to the elevation code, and tweaked the code for a 16 column LCD display.
 
@@ -66,13 +68,3 @@ Bent, OZ1CT, has contributed several ideas and feature requests, and performed t
 G4HSK has a [nice page documenting](http://radio.g4hsk.co.uk/2m-eme/rotator-controller/) his project using this code, the PstRotator control software, and a Yaesu G-5500 rotator.
 
 All trademarks mentioned on this page and in the code are property of their respective owners.
-
-## DXpeditions
-
-I will donate parts, units, or specially customized software for DXpeditions.  Email me at anthony dot good at gmail dot com.  DX IS!
-
-## Support and Feature Requests
-
-Please consult [this page](https://blog.radioartisan.com/support-for-k3ng-projects/) for support information.  Feature requests and bugs are documented and tracked on [GitHub](https://github.com/k3ng/k3ng_rotator_controller/issues).
-
-Please note that I do this work in my spare time as I can and I am not a professional developer, however I play one on TV.  I do my best to answer support requests,  however I don’t like having to answer questions for items that are explained in the [documentation](https://github.com/k3ng/k3ng_rotator_controller/wiki).  I do maintain a list of [feature requests](https://github.com/k3ng/k3ng_rotator_controller/issues).  Development items are prioritized by me based on the level of difficulty and what I’m interested in.  I welcome code contributions, code testing, bug reports, and any help you can provide.  This can even be helping with [documentation](https://github.com/k3ng/k3ng_rotator_controller/wiki) or providing support to others on the [Radio Artisan discussion group](https://groups.yahoo.com/neo/groups/radioartisan/info).
